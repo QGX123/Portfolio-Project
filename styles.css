@@ -1,0 +1,57 @@
+.container{
+
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side{
+    display: flex;
+}
+
+/*
+    The following css code contain every div that is sub portion of
+    .nav-wrapper and .left-side and apply its affect on it
+*/
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+/*
+    Only grab the 'a' tag in the .nav-link-wrapper
+*/
+.nav-link-wrapper a {
+    color: #8a8a8a;     /* Change the color of the hypertext*/
+    text-decoration: none; /* NO underline */
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+.right-side{
+
+}
+
+
+
+.brand{
+
+}
