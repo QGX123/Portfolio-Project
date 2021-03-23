@@ -1,5 +1,10 @@
-.container{
+body{
+    /* The default margin is 8px */
+    margin: 0px;
+}
 
+.container{
+    display: grid;
 }
 
 .nav-wrapper{
@@ -44,14 +49,4 @@
 
 .nav-link-wrapper a:hover{
     color: black;
-}
-
-.right-side{
-    /* color: red; */
-}
-
-
-
-.brand{
-
 }
