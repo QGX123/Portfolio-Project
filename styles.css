@@ -59,3 +59,13 @@ body{
 }
 
 /* Portfolio styles */
+
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*
+    display the content in columns, there are 3 1fr, means
+    there are 3 equal columns in a row, and every column are 
+    100% wide
+    */
+}
