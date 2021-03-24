@@ -96,9 +96,21 @@ body{
     padding-right: 100px;
 }
 
-/* Selecte the img in the following div*/
+/* Selecte the img in the following div */
 .logo-wrapper img{
     width: 50%;
     margin-bottom: 20px;
     justify-content: center;
+}
+
+/* Needs to be more specific with selector */
+.subtitle{
+    /*This can change the thinkness of the font*/
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
 }
