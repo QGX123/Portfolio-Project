@@ -2,6 +2,7 @@
 body{
     /* The default margin is 8px */
     margin: 0px;
+    font-family: 'Lora', sans-serif;
 }
 
 .container{
